@@ -25,6 +25,12 @@ exports.getSuggestionById = (id) => {
 }
 
 exports.addObjectTo = (table, object) => {
+
+  if (table === "user") {
+    object.timesVoted = 0;
+    object.votedFor = []
+    
+  }
   return mod.addObjectTo(table, object);
 }
 
