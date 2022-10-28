@@ -11,6 +11,10 @@ const PORT = 8080;
 
 app.get("/", req.welcomeMessage);
 
+app.get("/user", req.getAllUsers);
+app.get("/user/:id", req.getUserById);
+
+
 app.listen(PORT, () => {
   console.log("Running smoothly AF on port " + PORT)
 });
