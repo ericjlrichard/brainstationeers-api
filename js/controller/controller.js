@@ -29,7 +29,7 @@ exports.addObjectTo = (table, object) => {
   if (table === "user") {
     object.timesVoted = 0;
     object.votedFor = []
-    
+
   }
   return mod.addObjectTo(table, object);
 }
@@ -53,4 +53,8 @@ exports.toggleVote = (userId, suggId) => {
   mod.updateObj("suggestion", suggestion)
 
   mod.updateObj("user", user)
+}
+
+exports.postSuggestionToPrompt = (suggestion) => {
+  const suggestions = mod.addObjectTo("suggestion", suggestion)
 }

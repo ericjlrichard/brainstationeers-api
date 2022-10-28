@@ -33,6 +33,8 @@ app.get("/prompt/:id/suggestions", req.getAllSuggestionsByPrompt)
 
 app.patch("/user/:userId/togglevote/:suggestionId", req.toggleVote)
 
+app.post("/prompt/:id", req.postSuggestionToPrompt);
+
 app.listen(PORT, () => {
   console.log("Running brainstationeerly AF on port " + PORT)
 });

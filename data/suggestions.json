@@ -30,5 +30,13 @@
     "suggestion": "Game Night!",
     "timestamp": 1666931500,
     "votes": 3
+  },
+  {
+    "userId": "ab0468f7-6641-4fbb-943a-7b202d3906c1",
+    "promptId": "1",
+    "suggestion": "Maniacally laugh for thirty minutes",
+    "votes": 0,
+    "timestamp": 1666979069532,
+    "id": "9a150438-4f52-4937-83f3-98cf8c223074"
   }
 ]

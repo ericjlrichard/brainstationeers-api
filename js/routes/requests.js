@@ -49,3 +49,8 @@ exports.getAllSuggestionsByPrompt = (req, res) => {
 exports.toggleVote = (req, res) => {
   res.status(200).send(con.toggleVote(req.params.userId, req.params.suggestionId))
 }
+
+exports.postSuggestionToPrompt = (req, res) => {
+  con.postSuggestionToPrompt(req.body)
+  res.status(200).send("Suggestion added!")
+}
