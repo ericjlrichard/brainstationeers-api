@@ -1,21 +1,5 @@
 [
   {
-    "id": "1",
-    "userId": "1",
-    "promptId": "1",
-    "suggestion": "Paintball!",
-    "timestamp": 1666931245,
-    "votes": 0
-  },
-  {
-    "id": "2",
-    "userId": "2",
-    "promptId": "1",
-    "suggestion": "Game Night!",
-    "timestamp": 1666931500,
-    "votes": 2
-  },
-  {
     "id": "3",
     "userId": "2",
     "promptId": "2",
@@ -30,5 +14,21 @@
     "votes": 1,
     "timestamp": 1666937922898,
     "id": "0a6f8ec0-c531-4a11-8947-cad45a9f06c3"
+  },
+  {
+    "id": "1",
+    "userId": "1",
+    "promptId": "1",
+    "suggestion": "Paintball!",
+    "timestamp": 1666931245,
+    "votes": 2
+  },
+  {
+    "id": "2",
+    "userId": "2",
+    "promptId": "1",
+    "suggestion": "Game Night!",
+    "timestamp": 1666931500,
+    "votes": 3
   }
 ]
