@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Tommy Test",
+    "avatar": "",
+    "id": "27572b87-0fbf-4a5e-b52a-59c67ffe2f45",
+    "votedFor": []
+  },
+  {
+    "id": "1",
+    "name": "Gregory Stanislovic",
+    "timesVoted": 0,
+    "avatar": "",
+    "votedFor": [
+      "3",
+      "0a6f8ec0-c531-4a11-8947-cad45a9f06c3"
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Valérie Lavaltrie",
+    "timesVoted": 0,
+    "avatar": "",
+    "votedFor": [
+      "0a6f8ec0-c531-4a11-8947-cad45a9f06c3"
+    ]
+  }
+]
