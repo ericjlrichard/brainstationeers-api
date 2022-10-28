@@ -34,12 +34,17 @@ exports.getAllSuggestionsByPrompt = (id) => {
 
 exports.toggleVote = (userId, suggId) => {
   const user = mod.getObjectFrom("user", userId)
+  const suggestion = mod.getObjectFrom("suggestion", suggId)
 
   if (user.votedFor.find(item => item === suggId)) {
     user.votedFor = user.votedFor.filter(item => item !== suggId)
+    suggestion.votes--
   } else {
     user.votedFor.push(suggId)
+    suggestion.votes++
   }
+
+  mod.updateObj("suggestion", suggestion)
 
   mod.updateObj("user", user)
 }
