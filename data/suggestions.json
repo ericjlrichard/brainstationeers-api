@@ -29,7 +29,7 @@
     "promptId": "1",
     "suggestion": "Game Night!",
     "timestamp": 1666931500,
-    "votes": 3
+    "votes": 2
   },
   {
     "userId": "ab0468f7-6641-4fbb-943a-7b202d3906c1",
@@ -38,5 +38,37 @@
     "votes": 0,
     "timestamp": 1666979069532,
     "id": "9a150438-4f52-4937-83f3-98cf8c223074"
+  },
+  {
+    "userId": "ab0468f7-6641-4fbb-943a-7b202d3906c1",
+    "promptId": "1",
+    "suggestion": "420 yoooooo",
+    "votes": 0,
+    "timestamp": 1666980378458,
+    "id": "d70c967e-e173-48f3-8c1c-4e37e95ae7ad"
+  },
+  {
+    "promptId": "1",
+    "suggestion": "t34t34t3",
+    "userId": "ab0468f7-6641-4fbb-943a-7b202d3906c1",
+    "votes": 0,
+    "timestamp": 1666980589894,
+    "id": "42c78cbe-f5ba-40f5-ace0-c498f8947503"
+  },
+  {
+    "promptId": "1",
+    "suggestion": "Renaissance Fair",
+    "userId": "ab0468f7-6641-4fbb-943a-7b202d3906c1",
+    "votes": 1,
+    "timestamp": 1666980605352,
+    "id": "4a2fed0b-4fdf-4af8-9701-36022c4464a2"
+  },
+  {
+    "promptId": "1",
+    "suggestion": "Eat Chicken",
+    "userId": "ab0468f7-6641-4fbb-943a-7b202d3906c1",
+    "votes": 0,
+    "timestamp": 1666981241068,
+    "id": "736be8c7-6f86-4bc0-ab16-ff9d0f5f045f"
   }
 ]
